@@ -1,0 +1,255 @@
+@font-face {
+  font-family: 'iconfont';  /* project id 507265 */
+  src: url('//at.alicdn.com/t/font_507265_76w224q6nkaz6w29.eot');
+  src: url('//at.alicdn.com/t/font_507265_76w224q6nkaz6w29.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_507265_76w224q6nkaz6w29.woff') format('woff'),
+  url('//at.alicdn.com/t/font_507265_76w224q6nkaz6w29.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_507265_76w224q6nkaz6w29.svg#iconfont') format('svg');
+}
+body{
+	font-size: 16px;
+	font-family: "微软雅黑"，"苹方"，"sans-serif";
+}
+header{
+	width: 100%;
+	height: 1.77rem;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 999;
+	background-color: #fff;
+}
+.head-top{
+	width: 100%;
+	height: .88rem;
+	background-color: #c93a3a;
+	padding: 0 .24rem;
+}
+.head-top h1{
+	font-size: .37rem;
+	color: #fff;
+	font-weight: bolder;
+	float: left;
+	line-height: .88rem;
+}
+.head-search{
+	width: 5.02rem;
+	height: .57rem;
+	float: right;
+	margin-top: .155rem;
+}
+.head-search input{
+	width: 100%;
+	height: 100%;
+	padding-left: .68rem;
+	border: 0;
+}
+nav{
+	width: 100%;
+	height: .89rem;
+	padding: 0 .24rem;
+	/* 设置弹性布局 */
+	display: flex;
+	/* 设置内容换行 */
+	flex-wrap: wrap;
+	/* 设置水平方向对齐方式 */
+	justify-content: space-between;
+	/* 设置单行垂直对齐方式 */
+	align-items: center;
+}
+nav a{
+	color: #000;
+	font-size: .34rem;
+}
+.nav-active{
+	color: #c93a3a;
+	font-size: .40rem;
+}
+.nav-more{
+	display: block;
+	width: .53rem;
+	height: 100%;
+	text-align: right;
+	box-shadow: -6px 0 10px rgba(0, 0, 0, .2);
+	line-height: .89rem;
+}
+.content{
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 1.77rem;
+	bottom: .98rem;
+	overflow-y: scroll;
+}
+.banner{
+	width: 100%;
+	height: 3.17rem;
+	background-color: pink;
+}
+.banner-img,.banner-item {
+	width: 100%;
+	height: 100%;
+}
+.category{
+	width: 100%;
+	height: 1.54rem;
+	padding: 0 .24rem;
+	/* 设置弹性布局 */
+	display: flex;
+	/* 设置内容换行 */
+	flex-wrap: wrap;
+	/* 设置水平方向对齐方式 */
+	justify-content: space-between;
+	/* 设置单行垂直对齐方式 */
+	align-items: center;
+}
+.category li{
+	width: 1.2rem;
+	height: 1.25rem;
+	/* 设置弹性布局 */
+	display: flex;
+	/* 设置内容换行 */
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: space-between;
+
+}
+.category-box{
+	width: .72rem;
+	height: .72rem;
+	border-radius: 50%;
+	box-shadow: 0 0 .2rem #000;
+}
+.category-wenzi{
+	font-size: .28rem;
+	color: #575757;
+	font-weight: 700;
+}
+.category-box:nth-child(1){
+	box-shadow: 0 0 .15rem rgba(225, 144, 144, .4);
+}
+.category-box:nth-child(2){
+	box-shadow: 0 0 .15rem rgba(162, 157, 155, .4);
+}
+.category-box:nth-child(3){
+	box-shadow: 0 0 .15rem rgba(225, 101, 104, .4);
+}
+.category-box:nth-child(4){
+	box-shadow: 0 0 .15rem rgba(225, 164, 46, .4);
+}
+.notice{
+	width: 100%;
+	height: 2.48rem;
+	border-top: .02rem solid #eee;
+	padding: .29rem .24rem 0; 
+}
+.notice-top{
+	width: 100%;
+	height: 1.46rem;
+}
+.notice-top p{
+	width: 4.36rem;
+	height: 100%;
+	font-size: .38rem;
+	float: left;
+}
+.notice-right{
+	width: 2.24rem;
+	height: 100%;
+	float: right;
+}
+.notice-bottom{
+	width: 100%;
+	overflow: hidden;
+}
+.name,.pinglun,.time,.end{
+	float: left;
+	margin-right: .2rem;
+	font-size: .24rem;
+	color: #a3a3a3;
+}
+.end{
+	float: right;
+}
+.notice1{
+	width: 100%;
+	height: 3.56rem;
+	border-top: .02rem solid #eee;
+	padding: .29rem .24rem 0; 
+}
+.notice1-top{
+	width: 100%;
+	height: .99rem;
+}
+.notice1-top p{
+	width: 100%;
+	height: .84rem;
+	font-size: .38rem;
+	float: left;
+	font-weight: 500;
+	color: #343434;	
+}
+.notice1-Middle{
+	width: 100%;
+	height: 1.7rem;
+	/* 设置弹性布局 */
+	display: flex;
+	align-items: center;
+	/* 设置水平方向对齐方式 */
+	justify-content: space-between;
+}
+.notice1-box{
+	width: 2.24rem;
+	height: 1.47rem;
+	box-shadow: 0 0 .2rem rgba(178, 178, 178, .6);
+}
+footer{
+	width: 100%;
+	height: .98rem;
+	position:  fixed;
+	bottom: 0;
+	left: 0;
+	z-index: 998;
+	background-color: #fff;
+}
+.dibu{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: .0rem .24rem 0; 
+}
+.dibu-box{
+	height: .65rem;
+}
+.dibu-boxs{
+	width: .87rem;
+	height: .87rem;
+	padding-top: 0;
+}
+.dibu-box1s{
+	width: 100%;
+	height: 100%;
+	display: flex;
+}
+.dibu-box1{
+	width: .42rem;
+	height: .42rem;
+	display: flex;
+	margin: 0 auto;
+}
+.icon-shouye{
+	color: #f85959;
+	margin: 0 auto;
+}
+.icon-shipin,.icon-icon02,.icon-xiaohuoshanshipin,.icon-wode{
+	margin: 0 auto;
+	color: #8d8d8d;
+}
+.dibu-box p{
+	font-size: .2rem;
+	text-align: center;
+	color: #8d8d8d;
+}
+.dibu-boxs .icon-icon02{
+	font-size: .87rem;
+}
