@@ -12,13 +12,12 @@
 	<div class="swiper-container">
 	    <div class="swiper-wrapper">
 	        <div class="swiper-slide">
-				<img src="img/1.png" alt="">
+				<img src="img/c16.png" alt="">
 	        </div>
 	        <div class="swiper-slide">
-				<img src="img/2.png" alt="">
+				<img src="img/c17.png" alt="">
 	        </div>
 	    </div>
-
 	    <!-- 如果需要分页器 -->
 	    <div class="swiper-pagination"></div>
 	    
@@ -31,12 +30,20 @@
 
 <script>        
   var mySwiper = new Swiper ('.swiper-container', {
- 	
  	autoplay:true,
     
-    // 如果需要分页器
-    
-    pagination: '.swiper-pagination',
-  
-  })        
+    // 如果需要分页器    
+    pagination: {
+    	el: '.swiper-pagination',
+	  },
+	on:{
+		slideChangeTransitionEnd:function(){
+			if(this.activeIndex==1){
+				setTimeout(function(){
+					location.href = "index.html";
+				},2000);
+			}
+		}
+	}
+  })
   </script>

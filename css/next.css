@@ -83,6 +83,7 @@ nav a{
 	right: 0;
 	top: 1.77rem;
 	bottom: .98rem;
+	overflow-y: scroll;
 }
 .notice{
 	width: 100%;
